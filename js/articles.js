@@ -27,8 +27,8 @@ $(function() {
         }
     });
 
-    function getColClass(article) {
-        switch (article) {
+    function getColClass(columns) {
+        switch (columns) {
             case 1:
                 col = 'column-1';
                 break;
